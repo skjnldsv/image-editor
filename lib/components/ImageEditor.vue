@@ -557,7 +557,7 @@ defineExpose({ exportImage })
 	// Layout adapts to the editor's own size, not the viewport: the
 	// component embeds in arbitrary app layouts. Note: rules for the
 	// container itself cannot live in @container blocks, only
-	// descendants can respond — hence the shell wrapper.
+	// descendants can respond , hence the shell wrapper.
 	container: editor / size;
 
 	&,

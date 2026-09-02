@@ -14,13 +14,13 @@ unmaintained Filerobot editor.
 
 - Crop with rule-of-thirds guides, aspect presets (free, original,
   1:1, 4:3, 16:9), 90° rotation, flips, fine rotation (±45°) and scale
-  — the frame stays stable thanks to cover scaling
+ : the frame stays stable thanks to cover scaling
 - Brightness, contrast and saturation adjustments; eleven filter
   presets (pop, warm, cool, fade, grayscale, noir, sepia, invert,
   solarize, posterize) with live preview chips
 - Annotations: freehand drawing, rectangles, ellipses, arrows, text and
   emoji stickers (the user's frequently used Nextcloud emojis plus the
-  full picker) — movable, resizable, rotatable, recolorable,
+  full picker): movable, resizable, rotatable, recolorable,
   duplicatable and deletable
 - Redaction that destroys pixels (block averaging or strong blur),
   never just an overlay
@@ -40,11 +40,11 @@ unmaintained Filerobot editor.
   third-party editor, no framework interop layers.
 - **One declarative state.** Every edit lives in a single `EditorState`;
   the Konva scene is a pure render of it, and the export runs through the
-  same code path as the interactive view — what you save is what you saw.
+  same code path as the interactive view: what you save is what you saw.
 - **The library never persists.** It accepts an image (`Blob`, `File` or URL)
   and emits an edited `Blob`. WebDAV, versioning and file naming belong to the
   consuming app.
-- **Every behavior is covered by tests** — unit tests for math and state,
+- **Every behavior is covered by tests**: unit tests for math and state,
   Playwright tests in a real browser for everything touching canvas.
 
 ## Usage
